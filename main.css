@@ -10,6 +10,32 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 60vh;
+    min-height: 40vh;
     font-size: 70pt;
+}
+
+
+
+/*pizza image*/
+.pizza {
+    width: 300px;
+    height: 300px;
+
+    animation: rotation 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.pizzaContainer {
+    text-align: center;
+}
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
