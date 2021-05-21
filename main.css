@@ -1,0 +1,13 @@
+body {
+    background-color: darkseagreen;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+    font-size: 70pt;
+}
