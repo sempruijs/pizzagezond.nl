@@ -26,11 +26,11 @@ body {
     animation-iteration-count: infinite;
 }
 
-#pizza0 {
+.pizzaFall {
     opacity: 0.0%;
 }
 
-#pizza0:active {
+.pizzaFall:active {
     opacity: 1;
     width: 200px;
     height: 200px;
