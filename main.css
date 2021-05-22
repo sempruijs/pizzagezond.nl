@@ -26,6 +26,20 @@ body {
     animation-iteration-count: infinite;
 }
 
+#pizza0 {
+    opacity: 0.0%;
+}
+
+#pizza0:active {
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    transform: translateY(-500px);
+    animation: fall 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 .pizzaContainer {
     text-align: center;
 }
@@ -38,4 +52,18 @@ body {
     to {
         transform: rotate(359deg);
     }
+}
+
+@keyframes fall {
+    100% {
+        transform: translateY(200vh);
+    }
+}
+
+
+/*Pizza fall layer*/
+#pizzaFallLayer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
