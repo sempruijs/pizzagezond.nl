@@ -24,10 +24,13 @@ body {
     animation: rotation 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    pointer-events: none;
 }
 
 .pizzaFall {
-    opacity: 0.0%;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
 }
 
 .pizzaFall:active {
