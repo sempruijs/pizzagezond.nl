@@ -6,6 +6,7 @@
 
     <!--stylesheet-->
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
 
     <!--    meta-->
     <meta property="og:image" content="./scientist.jpg" />
@@ -17,13 +18,10 @@
     <meta property="article:tag" content="Wetenschap, pizza, gezond, ontdekking">
 </head>
 <body>
-    <div id="pizzaFallLayer">
-<!--        <img src="Pizza.png" alt="pizza" class="pizzaFall" draggable='false'>-->
-    </div>
     <!--source: trust me bro-->
     <div class="titleContainer">pizza is gezond</div>
     <div class="pizzaContainer">
-        <img src="Pizza.png" alt="pizza" class="pizza" draggable='false'>
+        <img src="Pizza.png" alt="pizza" id="pizza" draggable='false' onload="randomSpeed()">
     </div>
 </body>
 </html>
