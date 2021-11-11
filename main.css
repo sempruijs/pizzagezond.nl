@@ -44,16 +44,3 @@ body {
     }
 }
 
-@keyframes fall {
-    100% {
-        transform: translateY(200vh);
-    }
-}
-
-
-/*Pizza fall layer*/
-#pizzaFallLayer {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-}
